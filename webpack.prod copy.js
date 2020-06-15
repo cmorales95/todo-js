@@ -9,7 +9,7 @@ module.exports = {
     optimization: {
         minimizer: [ new OptimizeCssAssetsPlugin() ]
     },
-    output: { // Hash para evitar cookies
+    output: {
         filename: 'main.[contentHash].js'
     },
     module: {
@@ -73,3 +73,4 @@ module.exports = {
     ]
 
 }
+
