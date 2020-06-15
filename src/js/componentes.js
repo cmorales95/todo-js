@@ -62,6 +62,7 @@ btnBorrar.addEventListener("click", () => {
     const elemento = divTodoList.children[i];
     if (elemento.classList.contains("completed")) {
       divTodoList.removeChild(elemento);
+      
     }
   }
 });
